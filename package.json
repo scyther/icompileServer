@@ -1,0 +1,16 @@
+{
+  "name": "icompileserver",
+  "version": "1.0.0",
+  "description": "backend for icompile",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
