@@ -37,9 +37,9 @@ app.post("/run", async (req, res) => {
   if (language === "python") {
     language = "py";
   }
-  `if (code === undefined) {
+  if (code === undefined) {
     return res.status(400).json({ success: false, error: "Empty Code!" });
-  }`;
+  }
   try {
     const filepath = await generateFile(language, code);
     let output;
