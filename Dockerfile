@@ -18,6 +18,8 @@ RUN apt-get -y install gcc mono-mcs && \
 RUN npm install
 # If you are building your code for production
 # RUN npm ci --only=production
+RUN cd client 
+RUN npm run build
 
 # # Bundle app source
 
